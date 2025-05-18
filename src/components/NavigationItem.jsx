@@ -5,7 +5,7 @@ const NavigationItem = ({ name, href }) => {
     <li>
       <a
         href={href}
-        className="text-blue-100 hover:text-white text-2xl font-medium transition-colors"
+        className="text-blue-200 hover:text-white text-sm font-medium transition-colors"
       >
         {name}
       </a>
